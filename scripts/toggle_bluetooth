@@ -1,0 +1,8 @@
+#!/bin/bash
+if rfkill list bluetooth | grep "Soft blocked: yes"
+then
+	sudo rfkill unblock bluetooth 
+else
+	sudo rfkill block bluetooth 
+fi
+

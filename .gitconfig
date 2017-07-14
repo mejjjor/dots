@@ -1,0 +1,23 @@
+[user]
+	name = mejjjor
+  email = erik.aouizerate@gmail.com
+
+[color]
+	ui = auto
+	status = auto
+	diff = auto
+
+[push]
+	default = current
+
+[difftool]
+	prompt = true
+
+[diff]
+	tool = vim
+
+[core]
+	editor = vim
+	excludesFile = /home/riko/.gitignore
+[pull]
+	rebase = true
