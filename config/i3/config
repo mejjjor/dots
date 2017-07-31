@@ -172,7 +172,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86Display exec ~/dots/scripts/toggle_video_output
 
 # Lock screen
-bindsym Mod4 + o exec lock
+bindsym Mod4 + o exec i3lock-fancy
 
 # files explorer
 bindsym Mod4 + t exec thunar
@@ -185,4 +185,3 @@ bindsym Print exec scrot ~/Pictures/'%Y-%m-%d_$wx$h.png'
 
 # screen resolution
 exec xrandr --output eDP1 --mode 1920x1080
-
