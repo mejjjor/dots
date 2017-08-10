@@ -27,6 +27,7 @@ alias glg="git lg"
 alias gl="git pull"
 alias gp="git push"
 alias gst="git status"
+alias gd="git diff"
 
 
 # ls

@@ -180,7 +180,7 @@ bindsym Mod4 + t exec thunar
 # no screen saver
 bindsym Shift+Mod4 + Shift_R exec xset s off -dpms
 
-# ranger
+# print screen
 bindsym Print exec scrot ~/Pictures/'%Y-%m-%d_$wx$h.png'
 
 # screen resolution
