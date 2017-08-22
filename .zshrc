@@ -38,5 +38,13 @@ alias ls="ls --color"
 alias y="yaourt"
 alias ys="yaourt -S"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# ssh-agent
+alias ssha="ssh-add $HOME/.ssh/id_rsa"
+
+# Add RBENV to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rbenv/bin"
+eval "$(rbenv init -)"
+
+if [ -z $SSH_AGENT_PID ] && [ -z $SSH_TTY ]; then  # if no agent & not in ssh
+  eval $(ssh-agent -s -t 13600) > /dev/null
+fi

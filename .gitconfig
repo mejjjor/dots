@@ -18,6 +18,6 @@
 
 [core]
 	editor = vim
-	excludesFile = /home/riko/.gitignore
+	excludesFile = /home/erik/dots/.gitignore
 [pull]
 	rebase = true
