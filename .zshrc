@@ -46,5 +46,5 @@ export PATH="$PATH:$HOME/.rbenv/bin"
 eval "$(rbenv init -)"
 
 if [ -z $SSH_AGENT_PID ] && [ -z $SSH_TTY ]; then  # if no agent & not in ssh
-  eval $(ssh-agent -s -t 13600) > /dev/null
+  eval $(ssh-agent -s -t 19600) > /dev/null
 fi

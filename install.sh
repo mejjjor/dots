@@ -118,6 +118,8 @@ case $answer in
     # brightness
     safeinstall xorg-xbacklight
 
+    #dep open_from_here
+    safeinstall xcwd-git
 
     echo "$(tput setaf 2)All dependencies are up to date$(tput sgr0)"
     ;;

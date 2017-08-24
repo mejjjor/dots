@@ -56,4 +56,3 @@ heroku-logs
 
 .subset
 .zpresto
-vendor/bundle
