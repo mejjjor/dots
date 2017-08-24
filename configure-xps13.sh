@@ -62,6 +62,9 @@ safeinstall() {
 
 BASEDIR=$(cd "$(dirname "$0")"; pwd)
 
+# touchpad config
+safelink $BASEDIR/x1carbon/70-synaptics.conf.default /usr/share/X11/xorg.conf.d/70-synaptics.conf.default
+safelink $BASEDIR/x1carbon/70-synaptics.conf /usr/share/X11/xorg.conf.d/70-synaptics.conf
 
 # touchscreen driver
 safelink $BASEDIR/xps13/80-touchscreen.conf /usr/share/X11/xorg.conf.d/80-touchscreen.conf
