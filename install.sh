@@ -96,8 +96,8 @@ case $answer in
     safeinstall rofi-power
     safeinstall scrot
     safeinstall feh
-    safeinstall i3lock-fancy-git
-
+    safeinstall i3lock
+    
     safeinstall zsh
     safeinstall termite
     safeinstall atom

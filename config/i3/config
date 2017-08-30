@@ -172,7 +172,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86Display exec ~/dots/scripts/toggle_video_output
 
 # Lock screen
-bindsym Mod4 + o exec i3lock-fancy
+bindsym Mod4 + o exec i3lock -i ~/dots/bg.png
 
 # files explorer
 bindsym Mod4 + t exec thunar
