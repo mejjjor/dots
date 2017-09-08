@@ -38,6 +38,8 @@ alias ls="ls --color"
 alias y="yaourt"
 alias ys="yaourt -S"
 
+alias nt="npm test -- --watch"
+
 # ssh-agent
 alias ssha="ssh-add $HOME/.ssh/id_rsa"
 

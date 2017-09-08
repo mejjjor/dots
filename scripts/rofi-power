@@ -42,7 +42,7 @@ then
         i3-msg exit
         ;;
       Wifi)
-	      nm-connection-editor
+	      nm-applet
 	      ;;
       Sound)
 	      pavucontrol
