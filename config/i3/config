@@ -185,3 +185,6 @@ bindsym Print exec scrot ~/Pictures/'%Y-%m-%d_$wx$h.png'
 
 # screen resolution
 exec xrandr --output eDP1 --mode 1920x1080
+# kill default notifications and replace by dunst
+exec killall -q /usr/lib/xfce4/notifyd/xfce4-notifyd
+exec --no-startup-id dunst

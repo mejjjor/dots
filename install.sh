@@ -93,11 +93,12 @@ case $answer in
     safeinstall i3
 
     safeinstall rofi
-    safeinstall rofi-power
     safeinstall scrot
     safeinstall feh
     safeinstall i3lock
-    
+    # notifications
+    safeinstall dunst
+
     safeinstall zsh
     safeinstall termite
     safeinstall atom
