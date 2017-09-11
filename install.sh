@@ -98,6 +98,8 @@ case $answer in
     safeinstall i3lock
     # notifications
     safeinstall dunst
+    # multi clipboard
+    safeinstall clipmenu
 
     safeinstall zsh
     safeinstall termite

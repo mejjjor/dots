@@ -40,6 +40,9 @@ bindsym $mod+d exec rofi -show run
 bindsym $mod+Tab exec rofi -show window
 bindsym $mod+p exec ~/dots/scripts/rofi-power
 
+#clipmenu
+bindsym $mod + c exec clipmenu
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -185,6 +188,9 @@ bindsym Print exec scrot ~/Pictures/'%Y-%m-%d_$wx$h.png'
 
 # screen resolution
 exec xrandr --output eDP1 --mode 1920x1080
+
 # kill default notifications and replace by dunst
 exec killall -q /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec --no-startup-id dunst
+
+exec --no-startup-id clipmenud
