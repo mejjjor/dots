@@ -37,7 +37,9 @@ bindsym $mod+a kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show run
-bindsym $mod+Tab exec rofi -show window
+bindsym Mod1+Tab exec rofi -show window
+bindsym $mod+Tab focus right
+bindsym Shift+$mod+Tab focus left
 bindsym $mod+p exec ~/dots/scripts/rofi-power
 
 #clipmenu
