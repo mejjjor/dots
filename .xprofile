@@ -1,0 +1,17 @@
+#
+# ~/.xprofile
+#
+#
+
+# if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
+#     eval "$(dbus-launch --sh-syntax --exit-with-session)"
+# fi
+
+# Environment variables
+#
+
+[[ -f ~/.extend.xprofile ]] && . ~/.extend.xprofile
+
+if [ -z $SSH_AGENT_PID ] && [ -z $SSH_TTY ]; then  # if no agent & not in ssh
+  eval $(ssh-agent -s -t 19600) > /dev/null
+fi
