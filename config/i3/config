@@ -196,3 +196,12 @@ exec killall -q /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec --no-startup-id dunst
 
 exec --no-startup-id clipmenud
+
+# remove blue border
+hide_edge_borders both
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #222222
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #222222
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+
+#opacity on unfocused window
+exec --no-startup-id compton --config ~/.config/compton.conf -b

@@ -94,13 +94,17 @@ case $answer in
     safeinstall i3
 
     safeinstall rofi
+    # screenshot
     safeinstall scrot
+    # image visualizer
     safeinstall feh
     safeinstall i3lock
     # notifications
     safeinstall dunst
     # multi clipboard
     safeinstall clipmenu
+    # opacity on window
+    safeinstall compton
 
     safeinstall zsh
     safeinstall termite
