@@ -40,6 +40,9 @@ alias ys="yaourt -S"
 
 alias nt="npm test -- --watch"
 
+# JT
+alias gpfe=~/dots/scripts/push_fe.sh
+
 # ssh-agent
 alias ssha="ssh-add $HOME/.ssh/id_rsa"
 
