@@ -68,5 +68,6 @@ safeinstall xf86-input-synaptics
 
 safelink $BASEDIR/x1carbon/70-synaptics.conf.default /usr/share/X11/xorg.conf.d/70-synaptics.conf.default
 safelink $BASEDIR/x1carbon/70-synaptics.conf /usr/share/X11/xorg.conf.d/70-synaptics.conf
+safelink $BASEDIR/x1carbon/20-intel.conf /usr/share/X11/xorg.conf.d/20-intel.conf
 
 # safelink $BASEDIR/x1carbon/i3status.conf /etc/i3status.conf
