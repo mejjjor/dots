@@ -21,3 +21,7 @@
 	excludesFile = /home/erik/dots/.gitignore
 [pull]
 	rebase = true
+	default = current
+
+[push]
+	default = current
