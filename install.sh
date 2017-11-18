@@ -109,6 +109,7 @@ case $answer in
     safeinstall zsh
     safeinstall termite
     safeinstall atom
+    safeinstall sublime-text-dev 
     safeinstall htop
     safeinstall ranger
     safeinstall thunar
@@ -128,6 +129,9 @@ case $answer in
 
     #dep open_from_here
     safeinstall xcwd-git
+
+    #set screen resolution
+    safeinstall xorg-xrandr
 
     echo "$(tput setaf 2)All dependencies are up to date$(tput sgr0)"
     ;;
