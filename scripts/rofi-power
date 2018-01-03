@@ -5,7 +5,7 @@
 
 # 2016 Oliver Kraitschy - http://okraits.de
 
-OPTIONS="Suspend system\nPower-off system\nReboot system\nLock\nLogout\nWifi\nSound\nBluetooth_toggle\nBluetooth_options"
+OPTIONS="Suspend system\nPower-off system\nReboot system\nLock\nLogout\nWifi\nSound\nBluetooth_toggle\nBluetooth_options\nEnergy_management Disable"
 
 # source configuration or use default values
 if [ -f $HOME/.config/rofi-power/config ]; then
@@ -52,6 +52,9 @@ then
 	      ;;
       Bluetooth_options)
       	blueman-manager
+      	;;
+      Energy_management)
+      	xset -dpms
       	;;
       *)
         ;;
