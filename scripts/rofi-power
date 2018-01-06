@@ -55,6 +55,7 @@ then
       	;;
       Energy_management)
       	xset -dpms
+        xset s off
       	;;
       *)
         ;;
