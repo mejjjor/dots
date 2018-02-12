@@ -29,6 +29,8 @@ alias gp="git push"
 alias gst="git status"
 alias gd="git diff"
 
+# docker-compose
+alias dc="docker-compose"
 
 # ls
 alias l="ls"
