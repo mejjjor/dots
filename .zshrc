@@ -49,7 +49,7 @@ alias wifiStat="vnstat -q"
 alias ssha="ssh-add $HOME/.ssh/id_rsa"
 
 # Add RBENV to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rbenv/bin"
+export PATH="$PATH:$HOME/.rbenv/bin:$HOME/.cargo/bin"
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
