@@ -32,6 +32,9 @@ alias gd="git diff"
 # docker-compose
 alias dc="docker-compose"
 
+# heroku
+alias h="heroku"
+
 # ls
 alias l="ls"
 alias ls="ls --color"
