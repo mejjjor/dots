@@ -76,9 +76,9 @@ mkdir -p ~/bin
 safelink $BASEDIR/bin/icons ~/bin/icons
 safelink $BASEDIR/bin/lock ~/bin/lock
 
-# .gitconfig & .gitignore
 safelink $BASEDIR/.gitconfig $HOME/.gitconfig
 safelink $BASEDIR/.gitignore $HOME/.gitignore
+
 safelink $BASEDIR/.xprofile $HOME/.xprofile
 
 # -- [[ Package / plugins installation ]] --------------------------------------
