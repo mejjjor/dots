@@ -53,7 +53,7 @@ tags
 node_modules
 
 heroku-logs
-
+yarn-error.log
 .subset
 .zpresto
 

@@ -35,6 +35,9 @@ alias dc="docker-compose"
 # heroku
 alias h="heroku"
 
+# sequelize
+alias s="sequelize"
+
 # ls
 alias l="ls"
 alias ls="ls --color"
