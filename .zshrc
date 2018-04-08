@@ -12,6 +12,9 @@ fi
 
 # General
 alias r="ranger"
+alias d="docker"
+alias dc="docker-compose"
+alias k="kubectl"
 
 # Git
 alias g="git"
@@ -57,6 +60,8 @@ alias ssha="ssh-add $HOME/.ssh/id_rsa"
 # Add RBENV to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rbenv/bin:$HOME/.cargo/bin"
 eval "$(rbenv init -)"
+
+DEFAULT_USER=`whoami`
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

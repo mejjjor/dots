@@ -57,3 +57,5 @@ yarn-error.log
 .subset
 .zpresto
 
+config/sublime-text-3/Cache/
+config/sublime-text-3/Local/
