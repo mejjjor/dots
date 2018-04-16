@@ -72,10 +72,11 @@ for file in `ls -d $BASEDIR/config/*`; do
   safelink $target $link
 done
 
+ln -s $BASEDIR/subl3/Packages/User ~/.config/sublime-text-3/Packages/User
+
 mkdir -p ~/bin
 safelink $BASEDIR/bin/icons ~/bin/icons
 safelink $BASEDIR/bin/lock ~/bin/lock
-
 safelink $BASEDIR/.gitconfig $HOME/.gitconfig
 safelink $BASEDIR/.gitignore $HOME/.gitignore
 
@@ -109,7 +110,7 @@ case $answer in
     safeinstall zsh
     safeinstall termite
     safeinstall atom
-    safeinstall sublime-text-dev 
+    safeinstall sublime-text-dev
     safeinstall htop
     safeinstall ranger
     safeinstall thunar
