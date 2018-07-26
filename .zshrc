@@ -39,7 +39,7 @@ alias dc="docker-compose"
 alias h="heroku"
 
 # sequelize
-alias s="sequelize"
+alias s="subl3"
 
 # ls
 alias l="ls"
@@ -57,6 +57,9 @@ alias wifiStat="vnstat -q"
 # ssh-agent
 alias ssha="ssh-add $HOME/.ssh/id_rsa"
 
+# copy to clipboard
+alias cpy='xsel -ib'
+
 # Add RBENV to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rbenv/bin:$HOME/.cargo/bin"
 eval "$(rbenv init -)"
@@ -68,3 +71,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export WTF_GITHUB_TOKEN=44472e6d9f4cdccd162a8066c8ed81a3e4134697
+export WTF_JIRA_API_TOKEN=U7C4hTLSYYbHhiY2sWoQ0502
