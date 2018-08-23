@@ -71,5 +71,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export WTF_GITHUB_TOKEN=44472e6d9f4cdccd162a8066c8ed81a3e4134697
-export WTF_JIRA_API_TOKEN=U7C4hTLSYYbHhiY2sWoQ0502
