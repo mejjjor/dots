@@ -29,6 +29,7 @@ alias glog="git log"
 alias glg="git lg"
 alias gl="git pull"
 alias gp="git push"
+alias gpf="git push --force-with-lease"
 alias gst="git status"
 alias gd="git diff"
 
@@ -51,7 +52,6 @@ alias ys="yaourt -S"
 
 alias nt="npm test -- --watch"
 
-alias gpfe=~/dots/scripts/push_fe.sh
 alias wifiStat="vnstat -q"
 
 # ssh-agent
