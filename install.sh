@@ -92,6 +92,12 @@ case $answer in
     safeinstall yaourt
     safeinstall vim
 
+    # git interface
+    safeinstall tig
+
+    # cat improved
+    safeinstall bat
+
     safeinstall i3
 
     safeinstall rofi
