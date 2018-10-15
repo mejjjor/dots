@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Better CoffeeScript",
+		"Color Highlighter",
+		"ESLint-Formatter",
+		"FileIcons",
+		"Git",
+		"GitGutter",
+		"Gitignored File Excluder",
+		"LiveReload",
+		"One Dark Color Scheme",
+		"Package Control",
+		"Path Tools",
+		"Ruby Slim",
+		"Sass",
+		"SideBarTools",
+		"Slime",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SyncedSideBar",
+		"Theme - One Dark",
+		"MarkdownPreview"
+	]
+}

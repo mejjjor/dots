@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+	"file_exclude_patterns":
+	[
+		"/home/erik/workspace/appointment_system/spec/dummy/log/test.log"
+	],
+	"folder_exclude_patterns":
+	[
+		"/home/erik/workspace/appointment_system/spec/dummy/tmp/cache",
+		"/home/erik/workspace/appointment_system/node_modules"
+	],
+	"ignored_packages":
+	[
+		"Color Highlighter",
+		"FileIcons",
+		"GitGutter",
+		"One Dark Color Scheme",
+		"Sass",
+		"Simple JSX",
+		"Vintage"
+	],
+	"theme": "One Dark.sublime-theme"
+}
