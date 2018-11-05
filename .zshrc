@@ -46,9 +46,9 @@ alias s="subl3"
 alias l="ls"
 alias ls="ls --color"
 
-# Yaourt
-alias y="yaourt"
-alias ys="yaourt -S"
+# yay
+alias y="yay"
+alias ys="yay -S"
 
 alias nt="npm test -- --watch"
 

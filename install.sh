@@ -53,8 +53,8 @@ safelink()
 safeinstall() {
   package=$1
 
-  if type yaourt > /dev/null; then
-    sudo yaourt -Sq --needed $package
+  if type yay > /dev/null; then
+    sudo yay -Sq --needed $package
   else
     sudo pacman -Sq --needed $package
   fi
@@ -89,7 +89,7 @@ echo -n "Do you want to check packages? ([y]es/[N]o) "
 read answer
 case $answer in
   "yes"|"y")
-    safeinstall yaourt
+    safeinstall yay
     safeinstall vim
 
     #get current pwd
