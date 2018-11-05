@@ -60,9 +60,6 @@ alias ssha="ssh-add $HOME/.ssh/id_rsa"
 # copy to clipboard
 alias cpy='xsel -ib'
 
-# Add RBENV to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rbenv/bin:$HOME/.cargo/bin"
-eval "$(rbenv init -)"
 
 DEFAULT_USER=`whoami`
 
