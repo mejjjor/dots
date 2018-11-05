@@ -92,6 +92,9 @@ case $answer in
     safeinstall yaourt
     safeinstall vim
 
+    #get current pwd
+    safeinstall xcwd
+
     # git interface
     safeinstall tig
 
