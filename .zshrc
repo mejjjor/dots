@@ -33,6 +33,9 @@ alias gpf="git push --force-with-lease"
 alias gst="git status"
 alias gd="git diff"
 
+# apply defaut stash on station project
+alias gi="git stash apply stash^{/init_station_master-hr}"
+
 # docker-compose
 alias dc="docker-compose"
 

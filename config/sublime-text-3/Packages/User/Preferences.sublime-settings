@@ -19,5 +19,6 @@
 		"Simple JSX",
 		"Vintage"
 	],
+	"node_path": "/home/riko/.nvm/versions/node/v11.1.0/bin/node",
 	"theme": "One Dark.sublime-theme"
 }

@@ -206,3 +206,6 @@ client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 
 #opacity on unfocused window
 exec --no-startup-id compton --config ~/.config/compton.conf -b
+
+#set wp
+exec feh --bg-scale ~/dots/wp.png

@@ -3,7 +3,7 @@
 {
 	"node_path": {
 	    "windows": "node.exe",
-	    "linux": "/home/erik/.nvm/versions/node/v6.5.0/bin/node",
+	    "linux": "/home/riko/.nvm/versions/node/v11.1.0/bin/node",
 	    "osx": "/usr/local/bin/node"
 	  },
 	"format_on_save": true

@@ -93,7 +93,7 @@ case $answer in
     safeinstall vim
 
     #get current pwd
-    safeinstall xcwd
+    safeinstall xcwd-git
 
     # git interface
     safeinstall tig
